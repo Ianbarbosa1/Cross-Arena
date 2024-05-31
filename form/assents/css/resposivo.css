@@ -13,15 +13,15 @@
 
     /*LOGO*/
     .logo-inicial{
-        margin-top: 10px;
-        margin-bottom: 15px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
     .logo-inicial img{
-        height: 110px;
-        border-radius: 110px;
+        height: 125px;
+        border-radius: 125px;
     }
     .form-interno{
-        padding-top: 1px;
+        padding-top: 15px;
     }
 
     /*PARTE EXTERNA DO FORMULÁRIO*/
@@ -31,46 +31,10 @@
         border-radius: 70px 70px 30px 30px;
     }
     .nome{
-        margin-top: 20px;
-        font-family:'Montserrat';
+        margin-top: 40px;
     }
     .avisos{
-        margin-top: 20px;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-    }
-}
-
-@media screen and (min-width:701px) and (max-width:900px) {
-     /*BOTÃO DE VOLTAR*/
-     .volta a{
-        width: 100px;
-        height: 40px;
-    }
-    .volta img{
-        height: 30px;
-    }
-
-    /*LOGO*/
-    .logo-inicial{
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    .logo-inicial img{
-        height: 140px;
-        border-radius: 125px;
-    }
-
-    /*PARTE EXTERNA DO FORMULÁRIO*/
-    .formulario{
-        height: 100%;
-        width:650px;
-        border-radius: 70px 70px 30px 30px;
-    }
-
-    .form-interno{
-        padding-top: 20px;
+        margin-top: 40px;
     }
 }
 
