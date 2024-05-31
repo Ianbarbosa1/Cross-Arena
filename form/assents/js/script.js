@@ -21,20 +21,23 @@ function enviar(){
 
     
 
-    if(genero === "Selecione"){
-        alert("Você não selecionou o gênero")
-    }
-    else if(plano === "Selecione"){
-        alert("Você não selecionou o plano")
+    if(nome === "" && genero === "Selecione" && idade === "" && numero === "" && plano === "Selecione"){
+        alert("O formulário só será enviado se todos os campos estiverem completos!")
     }
     else if(nome === ""){
-        alert("O campo Nome está incorreto")
+        alert("O campo Nome não foi preenchido!")
+    }
+    else if(genero === "Selecione"){
+        alert("O campo Gênero não foi escolhido!")
     }
     else if(idade === ""){
-        alert("O campo idade está incorreto")
+        alert("O campo Idade não foi preenchido!")
     }
     else if(numero === ""){
-        alert("O campo Número está incorreto")
+        alert("O campo Número não foi preenchido!")
+    }
+    else if(plano === "Selecione"){
+        alert("O campo Plano não foi escolhido!")
     }
     else{
         var url = "http://wa.me/" + telefone + "?text="
