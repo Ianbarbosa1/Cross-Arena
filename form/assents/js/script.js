@@ -38,6 +38,7 @@ function enviar(){
     }
     else{
         var url = "http://wa.me/" + telefone + "?text="
+        + "*FORMULÁRIO CROSS ARENA*"
         + "*Nome :* " +nome+"%0a"
         + "*Gênero :* " +genero+"%0a"
         + "*Idade :* " +idade+ "%0a"
