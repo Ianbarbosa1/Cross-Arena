@@ -1,5 +1,5 @@
 function enviar(){
-    var telefone = "5521998382523"
+    var telefone = "5521972106538"
 
     var n = document.getElementById('nome')
     var i = document.getElementById('idade')
