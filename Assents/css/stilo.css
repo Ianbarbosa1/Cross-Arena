@@ -212,6 +212,10 @@
     justify-content: center;
     align-items: center;
 }
+.localizacao img {
+    height: 21px;
+    width:16px ;
+}
 
 
 /*PRODUTOS*/
