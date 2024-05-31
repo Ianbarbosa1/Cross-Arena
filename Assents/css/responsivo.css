@@ -1,0 +1,436 @@
+@media screen and (min-width: 450px) and (max-width: 700px){
+    /*BOTÃO*/
+    .botao{
+        right: 15px;
+        margin-top: 10px;
+        height: 30px;
+        width: 120px;
+    }
+
+    /*LOGO E FRASE*/
+    .externa{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100vh;
+        gap: 5px;
+        margin: 5px;
+    } 
+    .logo{
+        border-radius: 250px;
+        filter: drop-shadow(5px 5px 5px rgb(25,254,5));
+        height: 150px;
+        margin-left: 20px;
+    }
+    .frase{
+        font-size: 15px; 
+        text-align: center;
+    } 
+
+
+    /*PLANOS*/
+    .planos-externo{
+        height: 990px;
+        width: 420px;
+        border-radius: 20px;
+        margin-top: 150px;
+    }
+    .titulacao{
+        margin-bottom: 15px;
+    }
+    .titulo{
+        font-size: 20px;     
+        margin-bottom: 5px;
+    }
+    .barra{
+        height: 5px;
+        width: 72px;
+    }
+    .planos-interno{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .plano{
+        height:290px;
+        width: 250px;
+        border-radius: 20px;
+    }
+    .tipo-plano{
+        font-size: 20px;
+        margin: 10px 5px;
+    }
+    .valor{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .descricao{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .horarios{
+        font-size: 13px;
+        gap: 10px;
+    }
+    .promocao{
+        margin-top: 10px;
+        font-size: 11px;
+    }
+
+
+    /*ICONES*/
+    .icones{
+        height: 250px;
+        width: 100%;
+        gap: 20px;
+        margin: 10px;
+    }
+    .icones img{
+        width: 50px;
+    }
+    
+
+    /*MAPA*/
+    .mapa-externo{
+        height: 450px;
+        width: 430px;
+        border-radius: 50px;
+    }
+    .mapa-interno{
+        height: 350px;
+        width: 430px;
+    }
+    .mapa-interno iframe{
+        border-radius: 20px;
+        height: 300px;
+        width: 400px;
+    }
+
+
+    /*PRODUTOS*/
+    .produtos-externo{
+        height: 870px;
+        width: 430px;
+        margin-bottom:50px;
+        border-radius: 50px;
+    }
+    .produtos-interno{
+        height: 550px;
+        width: 100%;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    .produtos{
+        height: 165px;
+        width: 160px;
+    }
+    .produtos:hover{
+        padding: 5px;
+    } 
+    .produtos img{
+        height:100px;
+        width:100px;
+        border-radius: 30px;
+    }
+    .tipo-produto{
+        padding: 5px 0px;
+        font-family:'Montserrat';
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .valor-produto{
+        color: #d4d1d165;
+        font-size: 20px;
+    }
+
+    /*RODAPÉ*/
+    .the-one{
+        position: absolute;
+        right: 50px;
+        margin-top: 300px;
+        font-size:15px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px){
+    /*BOTÃO*/
+    .botao{
+        right: 15px;
+        margin-top: 10px;
+        height: 30px;
+        width: 120px;
+    }
+ 
+    /*LOGO E FRASE*/
+    .externa{
+        gap: 10px;
+        margin: 10px;
+    } 
+    .logo{
+        border-radius: 150px;
+      
+        height: 230px;
+        margin-left: 20px;
+    }
+    .frase{
+        font-size: 20px;
+        text-align: center;
+    } 
+
+
+    /*PLANOS*/
+    .planos-externo{
+        height: 420px;
+        width: 650px;
+        border-radius: 20%;
+        margin-top: 150px;
+    }
+    .titulacao{
+        margin-bottom: 20px;
+    }
+    .titulo{
+        font-size: 25px;     
+        margin-bottom: 5px;
+    }
+    .barra{
+        height: 5px;
+        width: 92px;
+    }
+    .planos-interno{
+        gap: 20px;
+    }
+    .plano{
+        height:300px;
+        width: 190px;
+        border-radius: 20px;
+    }
+    .tipo-plano{
+        font-size: 18px;
+        margin: 15px 5px;
+    }
+    .valor{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .descricao{
+        font-size: 15px;
+        margin: 10px 10px;
+    }
+    .horarios{
+        font-size: 13px;
+        gap: 10px;
+    }
+    .promocao{
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+
+
+    /*ICONES*/
+    .icones{
+        height: 300px;
+        width: 100%;
+        gap: 40px;
+        margin: 10px;
+    }
+    .icones img{
+        width: 70px;
+    }
+
+
+    /*MAPA*/
+    .mapa-externo{
+        height: 450px;
+        width: 650px;
+        border-radius: 20%;
+    }
+    .mapa-interno{
+        height: 330px;
+        width: 650px;
+    }
+    .mapa-interno iframe{
+        border-radius: 20px;
+        height: 300px;
+        width: 550px;
+    }
+
+
+    /*PRODUTOS*/
+    .produtos-externo{
+        height: 560px;
+        width: 650px;
+        margin-bottom:50px;
+        border-radius: 20%;
+    }
+    .produtos-interno{
+        height: 450px;
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .produtos{
+        height: 180px;
+        width: 130px;
+    }
+    .produtos img{
+        height:110px;
+        width:110px;
+        border-radius: 30px;
+    }
+    .tipo-produto{
+        padding: 5px 0px;
+        font-size: 17px;
+    }
+    .valor-produto{
+        font-size: 20px;
+    }
+
+    /*RODAPÉ*/
+    .the-one{
+        position: absolute;
+        right: 50px;
+        margin-top: 300px;
+        font-size:15px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    /*BOTÃO*/
+    .botao{
+        right: 15px;
+        margin-top: 10px;
+        height: 30px;
+        width: 120px;
+    }
+
+    /*LOGO E FRASE*/
+    .externa{
+        gap: 20px;
+        margin: 10px;
+    } 
+    .logo{
+        border-radius: 150px;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .frase{
+        font-size: 23px;
+        text-align: center;
+    } 
+
+
+    /*PLANOS*/
+    .planos-externo{
+        height: 520px;
+        width: 850px;
+        border-radius: 20%;
+        margin-top: 150px;
+    }
+    .titulacao{
+        margin-bottom: 30px;
+    }
+    .titulo{
+        font-size: 25px;     
+    }
+    .planos-interno{
+        gap: 40px;
+    }
+    .plano{
+        height:340px;
+        width: 230px;
+        border-radius: 30px;
+    }
+    .tipo-plano{
+        font-size: 20px;
+        margin:20px 5px;
+    }
+    .valor{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .descricao{
+        font-size: 16px;
+        margin: 10px 10px;
+    }
+    .horarios{
+        font-size: 15px;
+        gap: 20px;
+    }
+
+
+    /*ICONES*/
+    .icones{
+        height: 300px;
+        width: 100%;
+        gap: 50px;
+        margin: 10px;
+    }
+    .icones img{
+        width: 90px;
+    }
+
+
+    /*MAPA*/
+    .mapa-externo{
+        height: 500px;
+        width: 850px;
+        border-radius: 20%;
+    }
+    .mapa-interno{
+        height: 370px;
+        width: 850px;
+    }
+    .mapa-interno iframe{
+        border-radius: 20px;
+        height: 350px;
+        width: 750px;
+    }
+
+
+    /*PRODUTOS*/
+    .produtos-externo{
+        height: 560px;
+        width: 850px;
+        margin-bottom:50px;
+        border-radius: 20%;
+    }
+    .produtos-interno{
+        height: 450px;
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .produtos{
+        height: 206px;
+        width: 160px;
+    }
+    .produtos img{
+        height:130px;
+        width:130px;
+        border-radius: 30px;
+    }
+    .tipo-produto{
+        padding: 5px 0px;
+        font-size: 17px;
+    }
+    .valor-produto{
+        font-size: 25px;
+    }
+    .the-one{
+        position: absolute;
+        right: 50px;
+        margin-top: 300px;
+        font-size:15px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1392px){
+    /*FRASE E LOGO*/
+    .logo{
+        margin-left: 20px;
+    }
+    .frase{
+        text-align: center;
+    } 
+
+}
