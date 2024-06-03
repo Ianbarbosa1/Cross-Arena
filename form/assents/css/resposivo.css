@@ -38,10 +38,39 @@
     }
 }
 
-@media screen and (min-width:901px) and (max-width:1200px) {
-    body::before{
-        height: 925px;
+@media screen and (min-width:701px) and (max-width:900px) {
+     /*BOTÃO DE VOLTAR*/
+     .volta a{
+        width: 100px;
+        height: 40px;
     }
+    .volta img{
+        height: 30px;
+    }
+
+    /*LOGO*/
+    .logo-inicial{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .logo-inicial img{
+        height: 140px;
+        border-radius: 125px;
+    }
+
+    /*PARTE EXTERNA DO FORMULÁRIO*/
+    .formulario{
+        height: 100%;
+        width:650px;
+        border-radius: 70px 70px 30px 30px;
+    }
+
+    .form-interno{
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1200px) {
     /*LOGO*/
     .logo-inicial{
         margin-top: 10px;
@@ -64,3 +93,14 @@
     }
 }
 
+@media screen and (min-width:1201px) and (max-width:1300px) {
+    /*PARTE EXTERNA DO FORMULÁRIO*/
+    .formulario{
+        width:1190px;
+        border-radius: 70px 30px 70px 30px;
+    }
+
+    .form-interno{
+        padding-top: 40px;
+    }
+}
