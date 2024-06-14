@@ -69,7 +69,8 @@ body::before{
 .formulario{
     height: 750px;
     width:1200px;
-    background-image: linear-gradient(to top right,#3636367e, #5353533f , #5251513f);
+    background-image: linear-gradient(to top right,#3636367e, #5353533f, #5251513f);
+    backdrop-filter: blur(5px);
     border-radius: 70px 30px 70px 30px;
 }
 .form-interno{
@@ -225,6 +226,9 @@ body::before{
 }
 .aviso-paragrafo{
     width: 800px;
+    background-color: #ff000042;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
 }
 
 
