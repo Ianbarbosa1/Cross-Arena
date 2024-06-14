@@ -28,7 +28,8 @@
     .formulario{
         height:100%;
         width:430px;
-        border-radius: 70px 70px 30px 30px;
+        border-radius: 45px 45px 30px 30px;
+        padding: 15px;
     }
     .nome{
         margin-top: 40px;
@@ -63,10 +64,11 @@
         height: 100%;
         width:650px;
         border-radius: 70px 70px 30px 30px;
+        padding: 10px;
     }
 
     .form-interno{
-        padding-top: 20px;
+        padding: 10px;
     }
 }
 
@@ -86,10 +88,11 @@
         height: 100%;
         width:890px;
         border-radius: 70px 30px 70px 30px;
+        padding: 10px;
     }
 
     .form-interno{
-        padding-top: 20px;
+        padding-top: 10px;
     }
 }
 
