@@ -1,5 +1,5 @@
 var hora = new Date().getHours()
-
+alert('Não se preocupe se a página demorar a carregar as imagens de fundo pois elas são pesadas, Muito obrigado pela compreensão (^-^)')
 
 /*SELEÇÃO DAS IDs*/
 let produto1 = document.getElementById('p1')
