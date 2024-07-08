@@ -1,3 +1,47 @@
+@media screen and (min-width:350px) and (max-width:449px) {
+    /*BOTÃO DE VOLTAR*/
+    .volta{
+       top: 7px;
+   }
+   .volta a{
+       width: 100px;
+       height: 40px;
+   }
+   .volta img{
+       height: 30px;
+   }
+
+   /*LOGO*/
+   .logo-inicial{
+       margin-top: 20px;
+       margin-bottom: 65px;
+   }
+   .logo-inicial img{
+       height: 125px;
+       border-radius: 125px;
+   }
+   .form-interno{
+       padding-top: 15px;
+   }
+
+   /*PARTE EXTERNA DO FORMULÁRIO*/
+   .formulario{
+       height:100%;
+       width:350px;
+       border-radius: 45px 45px 30px 30px;
+       padding: 15px;
+   }
+   .nome{
+       margin-top: 40px;
+   }
+   .nome input{
+    width: 325px;
+    }   
+   .avisos{
+       margin-top: 40px;
+   }
+}
+
 @media screen and (min-width:450px) and (max-width:700px) {
      /*BOTÃO DE VOLTAR*/
      .volta{
