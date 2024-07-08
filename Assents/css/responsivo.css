@@ -1,3 +1,173 @@
+@media screen and (min-width: 350px) and (max-width: 449px){
+    /*BOTÃO*/
+    .botao{
+        right: 15px;
+        margin-top: 10px;
+        height: 30px;
+        width: 120px;
+    }
+
+    /*LOGO E FRASE*/
+    .externa{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100vh;
+        gap: 5px;
+        margin: 5px;
+    } 
+    .logo{
+        border-radius: 250px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    .frase{
+        font-size: 15px; 
+        text-align: center;
+    } 
+
+    .controler .apk{
+        width: 350px;
+    }
+
+
+    /*PLANOS*/
+    .planos-externo{
+        height: 990px;
+        width: 350px;
+        border-radius: 20px;
+        margin-top: 150px;
+    }
+    .titulacao{
+        margin-bottom: 15px;
+    }
+    .titulo{
+        font-size: 20px;     
+        margin-bottom: 5px;
+    }
+    .barra{
+        height: 5px;
+        width: 72px;
+    }
+    .planos-interno{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .plano{
+        height:290px;
+        width: 250px;
+        border-radius: 20px;
+    }
+    .tipo-plano{
+        font-size: 20px;
+        margin: 10px 5px;
+    }
+    .valor{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .descricao{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .horarios{
+        font-size: 13px;
+        gap: 10px;
+    }
+    .promocao{
+        margin-top: 10px;
+        font-size: 11px;
+    }
+
+
+    /*ICONES*/
+    .icones{
+        height: 250px;
+        width: 350px;
+        gap: 10px;
+        margin: 10px;
+    }
+    .icones img{
+        width: 40px;
+    }
+    
+
+    /*MAPA*/
+    .mapa-externo{
+        height: 450px;
+        width: 350px;
+        border-radius: 50px;
+    }
+    .mapa-interno{
+        height: 350px;
+        width: 100%;
+    }
+    .mapa-interno iframe{
+        border-radius: 20px;
+        height: 300px;
+        width: 350px;
+    }
+
+
+    /*PRODUTOS*/
+    .produtos-externo{
+        height: 870px;
+        width: 350px;
+        margin-bottom:50px;
+        border-radius: 50px;
+    }
+    .produtos-interno{
+        height: 550px;
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .produtos{
+        height: 165px;
+        width: 160px;
+    }
+    .produtos:hover{
+        padding: 5px;
+    } 
+    .produtos img{
+        height:100px;
+        width:100px;
+        border-radius: 30px;
+    }
+    .tipo-produto{
+        padding: 5px 0px;
+        font-family:'Montserrat';
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .valor-produto{
+        color: #d4d1d165;
+        font-size: 20px;
+    }
+
+    /*RODAPÉ*/
+    .the-one{
+        position: absolute;
+        right: 50px;
+        margin-top: 300px;
+        font-size:15px;
+    }
+    .container-tree{
+        height: 350px;
+        width: 100%;
+    }
+    .logo-final img{
+        height: 150px;
+        border-radius: 150px;
+    }
+    .horizontal{
+        height: 200px;
+        width: 3px;
+        background-color: white;
+    }
+}
+
+
 @media screen and (min-width: 450px) and (max-width: 700px){
     /*BOTÃO*/
     .botao{
