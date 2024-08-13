@@ -40,7 +40,7 @@
     color: rgb(0, 0, 0);
 }
 
-/*PARTE INCIAL*/
+/*PARTE INICIAL*/
 .externa{
     display: flex;
     justify-content:center;
@@ -54,10 +54,12 @@
     height: 350px;
 }
 .frase{
-    font-size: 25px;
+    font-size: 35px;
+    font-family: 'Outfit';
+    font-weight: 400;
 }
 
- /*REDE SOCIAIS*/
+/*REDE SOCIAIS*/
 .rede-social{
     position: relative;
     display: flex;
@@ -74,6 +76,10 @@
 
 /*CONTAINER SECUNDÁRIO*/
 .container-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-image: url(../imagens/IMG-FUNDO-BLACK.png);
     content:"";
     background-position: center;
@@ -82,12 +88,6 @@
     position: relative;
     color: white;
     background-color: #000000;
-}
-.controler{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
 
 /*PLANOS*/
@@ -106,6 +106,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-bottom: 80px;
     animation: entrada 1ms ease-in-out;
     animation-timeline:view();
@@ -113,7 +114,6 @@
 }
 .titulo{
     font-size: 25px;
-    text-align: center;
     padding-top: 20px;
     font-family:'Montserrat';
     font-weight: 600;
