@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat';
+}
+
+/*IMAGEM DE FUNDO*/
+body::before{
+    background-image: url(../imagens/fundo-formulario.png);
+    content: "";
+    background-repeat: no-repeat;
+    background-size:center;
+    background-position: center;
+    position:fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+
+/*BOTÃO DE RETORNO*/
+.volta{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.volta a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    gap: 7px;
+    background-color:#a7a4a43f ;
+    border-radius: 30px;
+}
+.volta a:hover{
+    background-color:#f1ecec67 ;
+    border-radius: 30px;
+}
+.volta img{
+    height: 40px;
+    border-radius: 100px;
+}
+
+/*LOGO*/
+.logo-inicial{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.logo-inicial img{
+    height: 150px;
+    border-radius: 150px;
+    filter: drop-shadow(5px 5px 5px rgb(25,254,5));
+}
+
+
+/*PARTE EXTERNA DO FORMULÁRIO*/
+.formulario{
+    height: 750px;
+    width:1200px;
+    background-image: linear-gradient(to top right,#3636367e, #5353533f, #5251513f);
+    backdrop-filter: blur(5px);
+    border-radius: 70px 30px 70px 30px;
+}
+.form-interno{
+    padding-top: 40px;
+}
+
+/*COMPONENTES DO FORMULÁRIO*/
+.nome{
+    margin-top: 40px;
+}
+.nome input{
+    outline:none;
+    height: 40px;
+    width: 350px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.781);
+    padding: 10px;
+    font-size: 20px;
+    background-color: #36363679;
+    color: white;
+    border-radius: 5px 5px 0px 0px ;
+}
+.nome input::placeholder{
+    color: rgb(212, 207, 207);
+}
+
+.sexo{
+    margin-top: 40px;
+}
+.sexo select{
+    outline:none;
+    height: 45px;
+    width: 150px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.781);
+    padding: 10px;
+    font-size: 20px;
+    background-color: #36363679;
+    color: white;
+    border-radius: 5px 5px 0px 0px ;
+}
+.sexo option{
+    background-color: #000000d0;
+}
+
+.idade{
+    margin-top: 40px;
+}
+.idade input{
+    outline: none;
+    height: 40px;
+    width: 90px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.781);
+    padding: 10px;
+    font-size: 20px;
+    background-color: #3636367e;
+    color: white;
+    border-radius: 5px 5px 0px 0px ;
+    text-align: center;
+}
+.idade input::placeholder{
+    color: rgb(212, 207, 207);
+}
+
+.numero{
+    margin-top: 40px;
+}
+.numero input{
+    outline:none;
+    height: 40px;
+    width: 210px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px 5px 0px 0px ;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.781);
+    padding: 10px;
+    font-size: 20px;
+    background-color: #36363679;
+    color: white;
+    text-align: center;
+}
+.numero input::placeholder{
+    color: rgb(212, 207, 207);
+}
+
+.plano{
+    margin-top: 40px;
+}
+.plano select{
+    outline:none;
+    height: 45px;
+    width: 200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.781);
+    padding: 10px;
+    font-size: 20px;
+    background-color: #36363679;
+    color: white;
+    border-radius: 5px 5px 0px 0px ;
+}
+.plano option{
+    background-color: #000000d0;
+}
+
+/*BOTÃO DE ENVIO*/
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+.botao {
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to left, rgb(0, 255, 42), rgba(34, 197, 1, 0.959),rgb(60, 255, 0) ,rgb(255, 255, 255), rgb(75, 255, 4),  rgb(102, 255, 0), rgb(3, 255, 24));
+    animation: degrade 5s infinite alternate-reverse;
+}
+
+.botao:hover{
+    color:#000000d0;
+}
+
+/*AVISO*/
+.avisos{
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.aviso-paragrafo{
+    width: 800px;
+    background-color: #ff000042;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+
+/*ANIMAÇÃO*/
+@keyframes degrade{
+    0%{
+        background-position-x:0% ;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
