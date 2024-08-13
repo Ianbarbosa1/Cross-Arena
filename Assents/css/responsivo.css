@@ -22,8 +22,7 @@
         margin-left: 20px;
     }
     .frase{
-        font-size: 15px; 
-        text-align: center;
+        font-size: 15px;
     } 
 
     .controler .apk{
@@ -167,7 +166,6 @@
     }
 }
 
-
 @media screen and (min-width: 450px) and (max-width: 700px){
     /*BOTÃO*/
     .botao{
@@ -194,7 +192,6 @@
     }
     .frase{
         font-size: 15px; 
-        text-align: center;
     } 
 
 
@@ -343,7 +340,6 @@
     }
     .frase{
         font-size: 20px;
-        text-align: center;
     } 
 
 
@@ -485,7 +481,6 @@
     }
     .frase{
         font-size: 23px;
-        text-align: center;
     } 
 
 
@@ -599,8 +594,4 @@
     .logo{
         margin-left: 20px;
     }
-    .frase{
-        text-align: center;
-    } 
-
 }
